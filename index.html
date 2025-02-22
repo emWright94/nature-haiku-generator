@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Haiku Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI Haiku Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poemForm">
           <input
             type="text"
             placeholder="Enter your poem topic here..."
@@ -23,13 +24,7 @@
           />
           <input type="submit" class="button" />
         </form>
-        <div class="poem">
-          The earth shakes
-          <br />
-          just enough
-          <br />
-          to remind us.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
