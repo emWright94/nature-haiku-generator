@@ -1,33 +1,86 @@
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: blanchedalmond;
-  text-align: center;
-  background: linear-gradient(
+  background-image: linear-gradient(
     87.4deg,
-    rgb(255, 241, 165) 1.9%,
-    rgb(200, 125, 76) 49.7%,
-    rgb(83, 54, 54) 100.5%
+    rgb(239, 220, 171) 1.9%,
+    rgb(217, 131, 36) 49.7%,
+    rgb(68, 54, 39) 100.5%
   );
 }
 #container {
-  background-color: rgb(83, 54, 54);
-  max-width: 60%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(68, 54, 39);
+  background-color: rgb(242, 246, 208);
+  max-width: 600px;
   border-radius: 10px;
   display: block;
-  margin: auto 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+}
+.instructions {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  padding: 15px;
+  border-color: rgb(68, 54, 39);
+  border-radius: 5px;
+  border-width: 1px;
+  width: 60%;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.button {
+  margin-left: 10px;
+  background-color: #e4af67;
+  color: rgb(242, 246, 208);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.button:hover {
+  cursor: pointer;
+  color: #e4af67;
+  background-color: rgb(239, 220, 171);
+}
+.poem {
+  font-size: 24px;
+  padding: 40px 65px 0px 65px;
+  line-height: 1.5;
 }
 footer {
-  font-size: 10px;
+  font-size: 12px;
+  color: rgb(68, 54, 39);
+  text-align: center;
+  padding-top: 210px;
+  padding-bottom: 10px;
 }
 a {
   text-decoration: none;
 }
-#footerLinks:active {
-  color: #eecf8c;
-}
-#footerLinks:visited {
-  color: #eecf8c;
-}
-#footerLinks:hover {
-  color: #6b453b;
+a:visited {
+  color: rgb(217, 131, 36);
 }
