@@ -79,6 +79,8 @@ form {
 
 .poem strong {
   color: rgb(217, 131, 36);
+  font-size: 18px;
+  font-style: italic;
 }
 footer {
   font-size: 12px;
