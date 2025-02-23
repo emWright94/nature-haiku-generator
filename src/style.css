@@ -10,7 +10,8 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(68, 54, 39);
   background-color: rgb(242, 246, 208);
-  max-width: 600px;
+  max-width: 75%;
+  max-height: 75%;
   border-radius: 10px;
   display: block;
   margin-top: 100px;
