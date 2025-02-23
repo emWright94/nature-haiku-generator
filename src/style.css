@@ -42,11 +42,15 @@ form {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 15px;
   padding: 15px;
-  border-color: rgb(68, 54, 39);
+  border: none;
+  outline: none;
   border-radius: 5px;
-  border-width: 1px;
   width: 60%;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.instructions:focus {
+  border: none;
+  outline: none;
 }
 .button {
   margin-left: 10px;
@@ -70,6 +74,10 @@ form {
   font-size: 24px;
   padding: 40px 65px 0px 65px;
   line-height: 1.5;
+}
+
+.poem strong {
+  color: rgb(217, 131, 36);
 }
 footer {
   font-size: 12px;
